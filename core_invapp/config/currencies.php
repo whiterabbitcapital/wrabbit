@@ -9,6 +9,14 @@ return [
         'decimal' => 3,
         'type' => 'fiat',
     ],
+    'CLP' => [
+        'name' => 'Pesos Chilenos',
+        'code' => 'CLP',
+        'symbol' => 'ni-sign-usd',
+        'sign' => '$',
+        'decimal' => 0,
+        'type' => 'fiat',
+    ],
     'EUR' => [
         'name' => 'Euro',
         'code' => 'EUR',
