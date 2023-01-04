@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/nqbusxs1sf2w/public_html/app.wrabbitcapital.com/
-    -/bin/rsync -av investorm/ $DEPLOYPATH
+    - /bin/rsync -av investorm/ $DEPLOYPATH
