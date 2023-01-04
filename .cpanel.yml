@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/nqbusxs1sf2w/public_html/app.wrabbitcapital.com/
     - /bin/cp -R investorm $DEPLOYPATH
+    - /bin/cp -rf content $DEPLOYPATH
