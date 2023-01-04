@@ -31,8 +31,8 @@ define('LARAVEL_START', microtime(true));
 |
 */
 
-if (file_exists(__DIR__.'/../core_invapp/storage/framework/maintenance.php')) {
-    require __DIR__.'/../core_invapp/storage/framework/maintenance.php';
+if (file_exists(__DIR__.'/../../app.wrabbitcapital.com/core_invapp/storage/framework/maintenance.php')) {
+    require __DIR__.'/../../app.wrabbitcapital.com/core_invapp/storage/framework/maintenance.php';
 }
 
 /*
