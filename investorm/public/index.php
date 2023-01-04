@@ -31,8 +31,8 @@ define('LARAVEL_START', microtime(true));
 |
 */
 
-if (file_exists(__DIR__.'/../core_invapp/storage/framework/maintenance.php')) {
-    require __DIR__.'/../core_invapp/storage/framework/maintenance.php';
+if (file_exists(__DIR__.'/../../../../core_invapp/storage/framework/maintenance.php')) {
+    require __DIR__.'/../../../../core_invapp/storage/framework/maintenance.php';
 }
 
 /*
@@ -47,12 +47,12 @@ if (file_exists(__DIR__.'/../core_invapp/storage/framework/maintenance.php')) {
 |
 */
 
-if (!file_exists(__DIR__.'/home/nqbusxs1sf2w/public_html/app.wrabbitcapital.com/core_invapp/vendor/autoload.php')) {
+if (!file_exists(__DIR__.'/../../../../core_invapp/vendor/autoload.php')) {
     echo "Please upload all the folder and files correctly.";
     exit();
 }
 
-require __DIR__.'/../core_invapp/vendor/autoload.php';
+require __DIR__.'/../../../../core_invapp/vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -66,7 +66,7 @@ require __DIR__.'/../core_invapp/vendor/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../core_invapp/bootstrap/app.php';
+$app = require_once __DIR__.'/../../../../core_invapp/bootstrap/app.php';
 
 /*
 |--------------------------------------------------------------------------
