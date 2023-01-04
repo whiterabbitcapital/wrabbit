@@ -1,11 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/nqbusxs1sf2w/public_html/app.wrabbitcapital.com
-    -/bin/rsync -av public/ $DEPLOYPATH
-   -/bin/rsync -av core_invapp/ $DEPLOYPATH
-
-  tasks:
-    - export DEPLOYPATH=/home/example/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - export DEPLOYPATH=/home/nqbusxs1sf2w/public_html/app.wrabbitcapital.com/
+    -/bin/rsync -av investorm/ $DEPLOYPATH
